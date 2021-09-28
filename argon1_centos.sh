@@ -4,8 +4,7 @@
 argon_create_file() {
 	if [ -f $1 ]; then
         sudo rm $1
-    fi
-	sudo touch $1
+    fi	sudo touch $1
 	sudo chmod 666 $1
 }
 argon_check_pkg() {
